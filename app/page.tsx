@@ -69,7 +69,7 @@ const mangaPanelsFinal = [
 export default function Page() {
   return (
     <div className="min-h-screen bg-[#f0f0f0]">
-      <div className="mx-auto max-w-[480px] md:max-w-[720px] lg:max-w-[860px] bg-white shadow-xl">
+      <div className="mx-auto max-w-[480px] md:max-w-[960px] lg:max-w-[1140px] bg-white shadow-xl">
         {/* 0. Portfolio Banner */}
         <PortfolioBanner />
 
