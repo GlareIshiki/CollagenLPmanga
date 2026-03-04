@@ -31,7 +31,7 @@ export function TrustPoints() {
   return (
     <AnimatedSection className="bg-white px-4 py-10">
       <SectionTitle>{"安心してお試しいただくために"}</SectionTitle>
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         {points.map((point) => (
           <div key={point.title} className="bg-[var(--color-pink-light)] rounded-xl p-4 flex flex-col items-center text-center gap-2">
             <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center">

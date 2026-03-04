@@ -2,7 +2,7 @@
 
 export function CTAButton({ text = "今すぐ試してみる", showBadge = true }: { text?: string; showBadge?: boolean }) {
   return (
-    <div className="flex flex-col items-center gap-1 w-full px-4">
+    <div className="flex flex-col items-center gap-1 w-full px-4 md:max-w-[480px] md:mx-auto">
       {showBadge && (
         <span className="text-xs font-bold text-[var(--color-pink-main)]">
           {"＼ 初回限定50%OFF ／"}

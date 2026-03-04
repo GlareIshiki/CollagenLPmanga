@@ -14,7 +14,7 @@ export function PricingSection() {
       <SectionTitle>{"お得な定期コースのご案内"}</SectionTitle>
 
       {/* Subscription plan */}
-      <div className="relative bg-white rounded-2xl shadow-lg p-6 mb-6 border-2 border-[var(--color-pink-main)]">
+      <div className="relative bg-white rounded-2xl shadow-lg p-6 mb-6 border-2 border-[var(--color-pink-main)] md:max-w-[480px] md:mx-auto">
         {/* Ribbon */}
         <div className="absolute -top-3 left-1/2 -translate-x-1/2 flex items-center gap-1 bg-[var(--color-pink-main)] text-white text-xs font-bold px-4 py-1 rounded-full">
           <Crown className="w-3.5 h-3.5" />
@@ -60,7 +60,7 @@ export function PricingSection() {
       </div>
 
       {/* Normal plan */}
-      <div className="bg-[var(--color-bg-gray)] rounded-xl p-5">
+      <div className="bg-[var(--color-bg-gray)] rounded-xl p-5 md:max-w-[480px] md:mx-auto">
         <h3 className="text-center font-bold text-[var(--color-text-sub)] mb-3">{"通常購入"}</h3>
         <div className="text-center">
           <span className="text-xl font-bold text-[var(--color-text)] font-mono">{"1箱：¥5,980"}</span>

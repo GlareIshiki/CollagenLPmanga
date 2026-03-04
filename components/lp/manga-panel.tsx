@@ -9,7 +9,7 @@ export function MangaPanel({ number, description }: { number: number; descriptio
         alt={`${description}`}
         fill
         className="object-cover"
-        sizes="(max-width: 480px) 100vw, 480px"
+        sizes="(max-width: 480px) 100vw, (max-width: 860px) 50vw, 33vw"
         onError={(e) => {
           const target = e.currentTarget as HTMLImageElement
           target.style.display = "none"

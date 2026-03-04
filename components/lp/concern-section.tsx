@@ -17,7 +17,7 @@ export function ConcernSection() {
   return (
     <AnimatedSection className="bg-[var(--color-pink-light)] px-4 py-10">
       <SectionTitle>{"こんなお悩みありませんか？"}</SectionTitle>
-      <ul className="flex flex-col gap-3 mb-6">
+      <ul className="flex flex-col md:grid md:grid-cols-2 gap-3 mb-6">
         {concerns.map((c, i) => (
           <li key={i} className="flex items-start gap-3 bg-white rounded-lg px-4 py-3 shadow-sm">
             <Check className="w-5 h-5 text-[var(--color-pink-main)] shrink-0 mt-0.5" />

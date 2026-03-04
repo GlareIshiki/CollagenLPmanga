@@ -16,7 +16,7 @@ export function FinalCTA() {
         <span className="text-4xl font-bold text-white font-mono">{"¥2,990"}</span>
       </div>
       <button
-        className="w-full h-[60px] rounded-xl bg-white text-[var(--color-pink-main)] font-bold text-lg hover:scale-[1.02] active:scale-[0.98] transition-transform shadow-lg cursor-pointer"
+        className="w-full md:max-w-[480px] h-[60px] rounded-xl bg-white text-[var(--color-pink-main)] font-bold text-lg hover:scale-[1.02] active:scale-[0.98] transition-transform shadow-lg cursor-pointer"
         onClick={() => {
           const el = document.getElementById("pricing")
           if (el) el.scrollIntoView({ behavior: "smooth" })

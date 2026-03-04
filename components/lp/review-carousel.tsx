@@ -109,7 +109,7 @@ export function ReviewCarousel() {
         {reviews.map((review, i) => (
           <div
             key={i}
-            className="min-w-[280px] max-w-[280px] bg-white rounded-xl p-5 shadow-sm snap-start flex flex-col gap-3"
+            className="min-w-[280px] max-w-[280px] md:min-w-0 md:max-w-none md:flex-1 bg-white rounded-xl p-5 shadow-sm snap-start flex flex-col gap-3"
           >
             <Stars count={review.stars} />
             <h3 className="text-sm font-bold text-[var(--color-text)]">{review.title}</h3>
